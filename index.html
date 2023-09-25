@@ -4,14 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cascading Style Sheets</title>
+    <!-- <link rel="stylesheet" href="./normalize.css" /> -->
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section class="store">
       <div class="container">
-        <p class="store__text">Current listings</p>
-        <h2 class="store__title">What we have in store for you.</h2>
-        <p class="store__descr">
+        <p class="text-orange">Current listings</p>
+        <h2 class="title">What we have in store for you.</h2>
+        <p class="subtitle">
           Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
           Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices,
           ut faucibus orci tincidunt.
@@ -160,8 +167,78 @@
       </div>
     </section>
 
-    <section>
-      <h1>Hello World!!!</h1>
+    <section class="team">
+      <div class="container">
+        <div class="team__wrapper">
+          <div class="team__inner">
+            <p class="text-orange">Our people</p>
+            <h2 class="title">
+              Meet our team of dedicated and talented agents.
+            </h2>
+
+            <h3 class="subtitle">
+              Morbi neque ex, condimentum dapibus congue et, vulputate ut
+              ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
+              nisi ultrices, ut faucibus orci tincidunt.
+            </h3>
+
+            <a href="#" class="link"
+              >View our team <img src="./img/arrow.svg" alt="arrow"
+            /></a>
+          </div>
+
+          <ul class="team__list">
+            <li class="team__item">
+              <img src="./img/team-1.jpg" alt="person" />
+
+              <div class="team__list-people">
+                <h2 class="team__title">Ava Orn</h2>
+                <h3 class="team__subtitle">Managing Broker</h3>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="./img/team-1.jpg" alt="person" />
+
+              <div class="team__list-people">
+                <h2 class="team__title">Ava Orn</h2>
+                <h3 class="team__subtitle">Managing Broker</h3>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="./img/team-1.jpg" alt="person" />
+
+              <div class="team__list-people">
+                <h2 class="team__title">Ava Orn</h2>
+                <h3 class="team__subtitle">Managing Broker</h3>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="./img/team-1.jpg" alt="person" />
+
+              <div class="team__list-people">
+                <h2 class="team__title">Ava Orn</h2>
+                <h3 class="team__subtitle">Managing Broker</h3>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="./img/team-1.jpg" alt="person" />
+
+              <div class="team__list-people">
+                <h2 class="team__title">Ava Orn</h2>
+                <h3 class="team__subtitle">Managing Broker</h3>
+              </div>
+            </li>
+            <li class="team__item">
+              <img src="./img/team-1.jpg" alt="person" />
+
+              <div class="team__list-people">
+                <h2 class="team__title">Ava Orn</h2>
+                <h3 class="team__subtitle">Managing Broker</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
   </body>
 </html>
